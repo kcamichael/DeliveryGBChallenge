@@ -72,6 +72,7 @@ public class ProgramUI
         return false;
     }
 
+// Enroute Deliveries
     private void ListEnrouteDeliveries()
     {
         Console.Clear();
@@ -90,14 +91,30 @@ public class ProgramUI
         PressAnyKey();
     }
 
+//Completed Deliveries
     private void ListCompletedDeliveries()
     {
-        throw new NotImplementedException();
+        Console.Clear();
+        var CompletedDeliveriesInDb = _dRepo.GetAllCompleteDeliveries();
+        if (CompletedDeliveriesInDb.Count > 0)
+        {   
+            foreach(var d in CompletedDeliveriesInDb)
+            {
+                System.Console.WriteLine(d);
+            }
+        }
+        else
+        {
+            System.Console.WriteLine("There are no Completed Deliveries available!");
+        }
+        PressAnyKey();
     }
 
+// Delete Delivery
     private void DeleteDelivery()
     {
-        throw new NotImplementedException();
+        Console.Clear();
+
     }
 
 // Update Delivery
