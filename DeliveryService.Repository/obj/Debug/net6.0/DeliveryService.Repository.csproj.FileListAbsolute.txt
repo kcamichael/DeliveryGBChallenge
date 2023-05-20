@@ -1,0 +1,15 @@
+C:\DeliveryserviceRecap\DeliveryService.Repository\bin\Debug\net6.0\DeliveryService.Repository.deps.json
+C:\DeliveryserviceRecap\DeliveryService.Repository\bin\Debug\net6.0\DeliveryService.Repository.dll
+C:\DeliveryserviceRecap\DeliveryService.Repository\bin\Debug\net6.0\DeliveryService.Repository.pdb
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.csproj.AssemblyReference.cache
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.AssemblyInfoInputs.cache
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.AssemblyInfo.cs
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.csproj.CoreCompileInputs.cache
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.dll
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\refint\DeliveryService.Repository.dll
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.pdb
+C:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\ref\DeliveryService.Repository.dll
+c:\DeliveryserviceRecap\DeliveryService.Repository\bin\Debug\net6.0\DeliveryService.Data.dll
+c:\DeliveryserviceRecap\DeliveryService.Repository\bin\Debug\net6.0\DeliveryService.Data.pdb
+c:\DeliveryserviceRecap\DeliveryService.Repository\obj\Debug\net6.0\DeliveryService.Repository.csproj.CopyComplete
