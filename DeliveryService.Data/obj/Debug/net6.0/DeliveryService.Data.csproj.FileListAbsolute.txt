@@ -10,3 +10,15 @@ C:\DeliveryserviceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Da
 C:\DeliveryserviceRecap\DeliveryService.Data\obj\Debug\net6.0\refint\DeliveryService.Data.dll
 C:\DeliveryserviceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.pdb
 C:\DeliveryserviceRecap\DeliveryService.Data\obj\Debug\net6.0\ref\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\bin\Debug\net6.0\DeliveryService.Data.deps.json
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\bin\Debug\net6.0\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\bin\Debug\net6.0\DeliveryService.Data.pdb
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.AssemblyInfo.cs
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\refint\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\DeliveryService.Data.pdb
+C:\ElevenFiftyProjects\codingFoundations\dotnetProjects\DeliveryServiceRecap\DeliveryService.Data\obj\Debug\net6.0\ref\DeliveryService.Data.dll

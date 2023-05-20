@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DeliveryserviceRecap\\DeliveryService.UI\\DeliveryService.UI.csproj",
+      "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.UI\\DeliveryService.UI.csproj",
       "projectName": "DeliveryService.UI",
-      "projectPath": "C:\\DeliveryserviceRecap\\DeliveryService.UI\\DeliveryService.UI.csproj",
+      "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.UI\\DeliveryService.UI.csproj",
       "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
-      "outputPath": "C:\\DeliveryserviceRecap\\DeliveryService.UI\\obj\\",
+      "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,11 +77,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {
-              "projectPath": "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj"
+            "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj"
             },
-            "C:\\DeliveryserviceRecap\\DeliveryService.Repository\\DeliveryService.Repository.csproj": {
-              "projectPath": "C:\\DeliveryserviceRecap\\DeliveryService.Repository\\DeliveryService.Repository.csproj"
+            "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Repository\\DeliveryService.Repository.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Repository\\DeliveryService.Repository.csproj"
             }
           }
         }

@@ -72,14 +72,58 @@ public class ProgramUI
         return false;
     }
 
-// Enroute Deliveries
+    // Create Delivery
+    private void CreateDelivery()
+    {
+        Console.Clear();
+        try
+        {
+            System.Console.WriteLine("== Create Delivery ==");
+
+            Console.Clear();
+
+            //create an empty form 
+            Delivery deliveryForm = new Delivery();
+
+            System.Console.WriteLine("Please enter an Order Date: YYYY/MM/DD");
+            deliveryForm.OrderDate = DateTime.Parse(Console.ReadLine()!);
+
+            System.Console.WriteLine("Please enter a Delivery Date: YYYY/MM/DD");
+            deliveryForm.DeliveryDate = DateTime.Parse(Console.ReadLine()!);
+
+            System.Console.WriteLine("Please enter an Item Number:");
+            deliveryForm.ItemNumber = int.Parse(Console.ReadLine()!);
+
+            System.Console.WriteLine("Please enter an Item Quantity:");
+            deliveryForm.ItemQuantity = int.Parse(Console.ReadLine()!);
+
+            System.Console.WriteLine("Please enter a Customer ID:");
+            deliveryForm.CustomerID = int.Parse(Console.ReadLine()!);
+
+            if (_dRepo.AddDelivery(deliveryForm))
+            {
+                System.Console.WriteLine("SUCCESS!");
+            }
+            else
+            {
+                System.Console.WriteLine("FAIL!");
+            }
+        }
+        catch (Exception ex)
+        {
+            System.Console.WriteLine(ex.Message);
+        }
+        PressAnyKey();
+    }
+
+    // Enroute Deliveries
     private void ListEnrouteDeliveries()
     {
         Console.Clear();
         var enRouteDeliveriesInDb = _dRepo.GetAllEnrouteDeliveries();
         if (enRouteDeliveriesInDb.Count > 0)
-        {   
-            foreach(var d in enRouteDeliveriesInDb)
+        {
+            foreach (var d in enRouteDeliveriesInDb)
             {
                 System.Console.WriteLine(d);
             }
@@ -91,14 +135,14 @@ public class ProgramUI
         PressAnyKey();
     }
 
-//Completed Deliveries
+    //Completed Deliveries
     private void ListCompletedDeliveries()
     {
         Console.Clear();
         var CompletedDeliveriesInDb = _dRepo.GetAllCompleteDeliveries();
         if (CompletedDeliveriesInDb.Count > 0)
-        {   
-            foreach(var d in CompletedDeliveriesInDb)
+        {
+            foreach (var d in CompletedDeliveriesInDb)
             {
                 System.Console.WriteLine(d);
             }
@@ -110,14 +154,8 @@ public class ProgramUI
         PressAnyKey();
     }
 
-// Delete Delivery
-    private void DeleteDelivery()
-    {
-        Console.Clear();
 
-    }
-
-// Update Delivery
+    // Update Delivery
     private void UpdateDelivery()
     {
         Console.Clear();
@@ -189,47 +227,52 @@ public class ProgramUI
         PressAnyKey();
     }
 
-    // Create Delivery
-    private void CreateDelivery()
+
+
+
+
+    // Delete Delivery
+    private void DeleteDelivery()
     {
         Console.Clear();
         try
         {
-            System.Console.WriteLine("== Create Delivery ==");
-
             Console.Clear();
+            System.Console.WriteLine("== Delete Delivery ==");
 
-            //create an empty form 
-            Delivery deliveryForm = new Delivery();
-
-            System.Console.WriteLine("Please enter an Order Date: YYYY/MM/DD");
-            deliveryForm.OrderDate = DateTime.Parse(Console.ReadLine()!);
-
-            System.Console.WriteLine("Please enter a Delivery Date: YYYY/MM/DD");
-            deliveryForm.DeliveryDate = DateTime.Parse(Console.ReadLine()!);
-
-            System.Console.WriteLine("Please enter an Item Number:");
-            deliveryForm.ItemNumber = int.Parse(Console.ReadLine()!);
-
-            System.Console.WriteLine("Please enter an Item Quantity:");
-            deliveryForm.ItemQuantity = int.Parse(Console.ReadLine()!);
-
-            System.Console.WriteLine("Please enter a Customer ID:");
-            deliveryForm.CustomerID = int.Parse(Console.ReadLine()!);
-
-            if (_dRepo.AddDelivery(deliveryForm))
+            foreach (var d in _dRepo.GetDeliveries())
             {
-                System.Console.WriteLine("SUCCESS!");
+                System.Console.WriteLine($"{d.DeliveryID}");
+            }
+            System.Console.WriteLine("======================\n");
+
+            System.Console.WriteLine("Please input a Delivery Id");
+            int userInputDeliveryId = int.Parse(Console.ReadLine()!);
+
+            Delivery selectedDelivery = _dRepo.GetDeliveryByID(userInputDeliveryId);
+
+            if (selectedDelivery != null)
+            {
+                Console.Clear();
+                if (_dRepo.RemoveDelivery(selectedDelivery.DeliveryID))
+                {
+                        System.Console.WriteLine("SUCCESS!");
+                }
+                else
+                {
+                        System.Console.WriteLine("FAIL!");
+                }
             }
             else
             {
-                System.Console.WriteLine("FAIL!");
+                System.Console.WriteLine($"The Delivery with the id: {userInputDeliveryId} doesn't Exist!");
             }
         }
         catch (Exception ex)
         {
             System.Console.WriteLine(ex.Message);
         }
+
         PressAnyKey();
     }
 }

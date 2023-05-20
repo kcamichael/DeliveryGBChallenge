@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {}
+    "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {}
   },
   "projects": {
-    "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {
+    "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj",
         "projectName": "DeliveryService.Data",
-        "projectPath": "C:\\DeliveryserviceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj",
+        "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\DeliveryService.Data.csproj",
         "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
-        "outputPath": "C:\\DeliveryserviceRecap\\DeliveryService.Data\\obj\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\dotnetProjects\\DeliveryServiceRecap\\DeliveryService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
